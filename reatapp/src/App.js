@@ -1,12 +1,12 @@
 import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 
 function App() {
   let value = 2589;
   return (
     <div className="App">
-    <div>{value}</div>
       <header className="App-header">
+      <div>{value}</div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
